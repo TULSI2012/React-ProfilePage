@@ -1,0 +1,59 @@
+section{
+    margin: auto;
+}
+h2{
+    margin: auto;
+    padding: auto;
+    color: #030303;
+}
+
+.contact-container {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #030303;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: bisque;
+    color: #0b0b0b;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-style: normal;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ae7e7e;
+  }
+
+  .buttonlink{
+    margin: 10px;
+    padding: 10px;
+  }

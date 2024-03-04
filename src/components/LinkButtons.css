@@ -1,0 +1,20 @@
+.link-buttons {
+    display: flex;
+  }
+  
+  .link-button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: bisque;
+    color: #060606;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .link-button:hover {
+    background-color: #86919e;
+  }
