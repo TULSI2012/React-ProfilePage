@@ -5,13 +5,13 @@
   .link-button {
     margin-right: 10px;
     padding: 8px 16px;
-    background-color: bisque;
+    background-color: palevioletred;
     color: #060606;
     font-family: "Playfair Display", serif;
     font-weight: 900;
     font-style: normal;
     text-decoration: none;
-    border: none;
+    border: 2px solid purple;
     border-radius: 5px;
   }
   

@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact: React.FC = () => {
   return (
     <section>
-      <h2 id="conatct">Conatct Me</h2>
+      <h2 className="head">Conatct Me</h2>
       <div className="contact-container">
         <form className="contact-form">
           <div className="form-group">
