@@ -10,6 +10,7 @@ section{
     margin-top: 10px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 20px;
     color: #030303;
   }
   
@@ -30,6 +31,7 @@ section{
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 10px;
   }
   
   button {
