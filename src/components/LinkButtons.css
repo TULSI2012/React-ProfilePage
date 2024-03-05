@@ -1,11 +1,4 @@
-.link-buttons {
-    display: flex;
-    flex-direction: row;
-  }
-  
   .link-button {
-    margin-right: 10px;
-    padding: 8px 16px;
     background-color: palevioletred;
     color: #060606;
     font-family: "Playfair Display", serif;

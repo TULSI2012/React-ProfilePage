@@ -1,6 +1,6 @@
 import "./App.css";
 import Profile from "./components/Profile";
-import Contact from "./components/Contact";
+import Form from "./components/From";
 import LinkButtons from "./components/LinkButtons";
 const App: React.FC = () => {
   return (
@@ -26,13 +26,15 @@ const App: React.FC = () => {
         I have the flexibility and capability to tackle a wide range of projects
         and contribute to every stage of the web development process."
       />
-      <Contact />
-      <LinkButtons
-        url="https://www.linkedin.com/in/tulsikalola2a888b191/"
-        label="Linkdln"
-      />
-      <LinkButtons url="https://github.com/TULSI2012" label="Github" />
-      <LinkButtons url="./Images/tulsiresume.pdf" label="Resume" />
+      <Form />
+      <div className="container">
+        <LinkButtons
+          url="https://www.linkedin.com/in/tulsikalola2a888b191/"
+          label="Linkdln"
+        />
+        <LinkButtons url="https://github.com/TULSI2012" label="Github" />
+        <LinkButtons url="./Images/tulsiresume.pdf" label="Resume" />
+      </div>
     </div>
   );
 };
