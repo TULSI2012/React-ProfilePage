@@ -8,12 +8,7 @@ interface LinkButtonProps {
 const LinkButtons: React.FC<LinkButtonProps> = ({ url, label }) => {
   return (
     <div className="link-buttons">
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link-button"
-      >
+      <a href={url} target="_blank" className="link-button">
         {label}
       </a>
     </div>
