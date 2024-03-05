@@ -1,31 +1,20 @@
 import "./LinkButtons.css";
 
-const LinkButtons = () => {
+interface LinkButtonProps {
+  url: string;
+  label: string;
+}
+
+const LinkButtons: React.FC<LinkButtonProps> = ({ url, label }) => {
   return (
     <div className="link-buttons">
       <a
-        href="https://www.linkedin.com/in/tulsikalola2a888b191/"
+        href={url}
         target="_blank"
         rel="noopener noreferrer"
         className="link-button"
       >
-        LinkedIn
-      </a>
-      <a
-        href="https://github.com/TULSI2012"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link-button"
-      >
-        GitHub
-      </a>
-      <a
-        href="/Images/tulsiresume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link-button"
-      >
-        Resume
+        {label}
       </a>
     </div>
   );

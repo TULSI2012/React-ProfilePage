@@ -1,5 +1,6 @@
 .link-buttons {
     display: flex;
+    flex-direction: row;
   }
   
   .link-button {
@@ -13,6 +14,7 @@
     text-decoration: none;
     border: 2px solid purple;
     border-radius: 5px;
+    flex-direction: row;
   }
   
   .link-button:hover {

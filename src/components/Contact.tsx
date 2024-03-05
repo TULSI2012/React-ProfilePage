@@ -1,4 +1,3 @@
-import LinkButtons from "./LinkButtons";
 import "./Contact.css";
 
 const Contact: React.FC = () => {
@@ -21,9 +20,7 @@ const Contact: React.FC = () => {
           </div>
           <button type="submit">Send</button>
         </form>
-        <div className="buttonlink">
-          <LinkButtons />
-        </div>
+        <div className="buttonlink"></div>
       </div>
     </section>
   );
